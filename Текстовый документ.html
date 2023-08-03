@@ -6,12 +6,13 @@
 </head>
 <body>
 <title>Домашняя работа основы Java script</title>
- <h1>Создайте страницу, которая спрашивает имя и выводит его с помощью функции</h1>
+ <p id="txt">Создайте страницу, которая спрашивает имя и выводит его с помощью функции</p>
+<button onclick="changeColor(txt)">Кнопка</button>
     <script>
         var name = prompt("Введите ваше имя: ", "");
         alert("Ваше имя - " + name + "!");
     </script>
-<script>
+    <script>
        let date = +prompt("Введите ваш возраст");
 switch(date){
 	case 18: alert("Вам всё можно"); break;
